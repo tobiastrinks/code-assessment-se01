@@ -1,0 +1,18 @@
+version: '3'
+services:
+
+  api:
+    image: code-assessment-se01-api
+    build: ./api/.
+    container_name: code-assessment-se01-api
+    ports:
+      - 3000:3000
+
+  app:
+      image: code-assessment-se01-app
+      build: ./app/.
+      volumes:
+        - ./app/:/usr/share/nginx/html
+      container_name: code-assessment-se01-app
+      ports:
+        - 80:80

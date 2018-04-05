@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script type="text/javascript" src="library/jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $.getJSON("cfg.json", function (config) {
+                    $("#order-form-submit").click(function () {
+                        $.ajax(config.serverUrl + '/order', {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            data: JSON.stringify({
+                                order: $("#order-form-input").val()
+                            })
+                        }).then(result => {
+                            $("#order-result").text(JSON.stringify(result))
+                        });
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="order-form">
+                <input id="order-form-input" type="text" placeholder="Bestellung eingeben" />
+                <button id="order-form-submit">SENDEN</button>
+            </div>
+            <div id="order-result"></div>
+        </div>
+    </body>
+</html>

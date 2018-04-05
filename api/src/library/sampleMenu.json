@@ -1,0 +1,1700 @@
+{
+  "id": "748eb084-81d0-4143-a56f-678bd837d687",
+  "name": "Test Menu",
+  "drinks": [
+    {
+      "id": "69447440-0e42-4cb0-ac46-15743cec2622",
+      "layer1": true,
+      "name": "bier",
+      "synonym": [
+        "vomfass"
+      ],
+      "default": "jever",
+      "child": [
+        {
+          "id": "9676d108-80d9-448c-8b43-9825d6c0db52",
+          "layer1": false,
+          "name": "börse",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "börsenbier",
+          "category": "bier",
+          "var": [
+            {
+              "id": "2ec419b8-180e-4455-98f4-dd40734028ea",
+              "size": 300,
+              "price": 2.6,
+              "default": null
+            },
+            {
+              "id": "68574f86-760e-4549-80ce-9077f57ccb09",
+              "size": 500,
+              "price": 3.9,
+              "default": null
+            },
+            {
+              "id": "f2054d75-4311-499c-9bb4-2cfb33767d42",
+              "size": 1500,
+              "price": 11.7,
+              "default": null
+            }
+          ],
+          "alone": true
+        },
+        {
+          "id": "9b28e001-ae4c-4aa2-8d9d-c418fe8b4ded",
+          "layer1": false,
+          "name": "jever",
+          "synonym": [],
+          "default": "pilsener",
+          "child": [
+            {
+              "id": "942f64cc-64c6-4d71-a0cb-88f06c85bd8a",
+              "layer1": false,
+              "name": "pilsener",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "jever pilsener",
+              "category": "bier",
+              "var": [
+                {
+                  "id": "d8b32ecf-f41e-4047-8550-7b51a21f39fa",
+                  "size": 300,
+                  "price": 2.9,
+                  "default": null
+                },
+                {
+                  "id": "352603fb-a9a8-472f-b378-b4a4a9141812",
+                  "size": 500,
+                  "price": 4.5,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": true
+        },
+        {
+          "id": "b5088a77-e630-4f8a-8680-c63162a6d0cd",
+          "layer1": false,
+          "name": "paulaner",
+          "synonym": [],
+          "default": "premium",
+          "child": [
+            {
+              "id": "0cf5d7f9-d3a0-4da7-921b-acf3c9b708e4",
+              "layer1": false,
+              "name": "premium",
+              "synonym": [],
+              "default": "pilsener",
+              "child": [
+                {
+                  "id": "8b22489d-3822-4059-ae4e-c85d09414e7c",
+                  "layer1": false,
+                  "name": "pilsener",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "paulaner premium pils",
+                  "category": "bier",
+                  "var": [
+                    {
+                      "id": "08045dc6-0cbb-4f3d-ad39-7e6309649061",
+                      "size": 300,
+                      "price": 3,
+                      "default": null
+                    },
+                    {
+                      "id": "128863db-159b-4ffd-a2bf-615f63716e1f",
+                      "size": 500,
+                      "price": 4.5,
+                      "default": null
+                    },
+                    {
+                      "id": "b7a75074-aaea-46c1-9844-47d2a3a7a93a",
+                      "size": 1000,
+                      "price": 9.9,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            },
+            {
+              "id": "feb7c687-369a-4c65-bfaa-c6fd696fda1d",
+              "layer1": false,
+              "name": "kristall",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "3da42dd2-5bf7-41d2-af39-eab53ebd4ae3",
+                  "layer1": false,
+                  "name": "weizen",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "paulaner kristallweizen",
+                  "category": "bier",
+                  "var": [
+                    {
+                      "id": "10543f55-8f7c-40e7-b148-247af0a0eaef",
+                      "size": 500,
+                      "price": 4.5,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": true
+        },
+        {
+          "id": "e8d8af28-f726-4e69-9688-9ad2c1e5ec2a",
+          "layer1": false,
+          "name": "hacker",
+          "synonym": [],
+          "default": "pschorr",
+          "child": [
+            {
+              "id": "16b8fb74-a98e-46ca-afd1-301d76a42b31",
+              "layer1": false,
+              "name": "pschorr",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "hacker-pschorr",
+              "category": "bier",
+              "var": [
+                {
+                  "id": "1de5748e-1153-46aa-bd62-0792f978b7b0",
+                  "size": 300,
+                  "price": 2.9,
+                  "default": null
+                },
+                {
+                  "id": "e9fdeb3f-be5f-4949-ba89-2723091c9ff5",
+                  "size": 500,
+                  "price": 4.4,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": true
+        },
+        {
+          "id": "2c35b251-59c1-4827-a359-7f3e8d22bc1c",
+          "layer1": false,
+          "name": "diebels",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "ff018e9a-65e9-4e5c-b8f2-65d586e26ab4",
+              "layer1": false,
+              "name": "alt",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "diebels alt",
+              "category": "bier",
+              "var": [
+                {
+                  "id": "fa0dc963-fd4f-48ea-9486-c928349ea9a3",
+                  "size": 300,
+                  "price": 2.9,
+                  "default": null
+                },
+                {
+                  "id": "2e6263e3-92e8-4a83-957c-adc68cbb3dc6",
+                  "size": 500,
+                  "price": 4.4,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "a59a2781-8899-4799-928f-4d9ba80608d7",
+          "layer1": false,
+          "name": "zwickl",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "zwick'l",
+          "category": "bier",
+          "var": [
+            {
+              "id": "190613dd-1268-453c-baa5-d5bdba3d30da",
+              "size": 300,
+              "price": 2.9,
+              "default": null
+            },
+            {
+              "id": "45270497-d56d-4304-a4bc-62ac3aad82f8",
+              "size": 500,
+              "price": 4.5,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "ba14ce0f-3561-43e0-9480-9a1599fae246",
+          "layer1": false,
+          "name": "potsdamer",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "6eedd681-644c-43bb-b6ea-785528663e3a",
+              "layer1": false,
+              "name": "rex",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "309bcd58-ef8f-4938-9b98-fcf8b5d72383",
+                  "layer1": false,
+                  "name": "pils",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "potsdamer rex pils",
+                  "category": "bier",
+                  "var": [
+                    {
+                      "id": "b71a0418-ddcb-4aca-ac84-9f0a21fb9eec",
+                      "size": 300,
+                      "price": 2.8,
+                      "default": null
+                    },
+                    {
+                      "id": "71ba278f-2023-47a2-aa57-c57c87e06cf4",
+                      "size": 500,
+                      "price": 4.2,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "7fd78a5b-a131-4cf6-bb50-a3cf7f809a00",
+          "layer1": false,
+          "name": "kölsch",
+          "synonym": [],
+          "default": "sion",
+          "child": [
+            {
+              "id": "d0376c53-f81a-4e13-a52d-e6eae7e4504c",
+              "layer1": false,
+              "name": "sion",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "sion kölsch",
+              "category": "bier",
+              "var": [
+                {
+                  "id": "0d94eacc-e8c4-4e69-9b4b-0ae833fd8766",
+                  "size": 300,
+                  "price": 2.8,
+                  "default": null
+                }
+              ],
+              "alone": false
+            },
+            {
+              "id": "6c7fbb58-f9b0-4d90-b382-176e031e2348",
+              "layer1": false,
+              "name": "meter",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "1 meter kölsch",
+              "category": "bier",
+              "var": [
+                {
+                  "id": "aff24b68-2610-46ad-8775-6d89be3b6c33",
+                  "size": 3300,
+                  "price": 27,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "6f8a3ce4-32d9-4da9-bf0c-7c103f994b0c",
+          "layer1": false,
+          "name": "gespritztes",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "37484bcf-c31e-4207-88bd-9bc5edd0c23b",
+              "layer1": false,
+              "name": "fassbrause",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "gespritztes mit fassbrause",
+              "category": "bier",
+              "var": [
+                {
+                  "id": "1cb8d9e3-03ea-4dfd-aa86-b761ab49e2bd",
+                  "size": 300,
+                  "price": 2.8,
+                  "default": null
+                },
+                {
+                  "id": "8689aeb4-603f-4609-9806-9fce3c00cbc4",
+                  "size": 500,
+                  "price": 4.3,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "144e9d6d-7959-4df8-9006-b9ef5ca43f2a",
+          "layer1": false,
+          "name": "corona",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "bc28708d-4e7b-47df-a2eb-1aca38218531",
+              "layer1": false,
+              "name": "beer",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "corona beer",
+              "category": "bier",
+              "var": [
+                {
+                  "id": "3a010dd4-3077-420c-8646-c179f6676ae0",
+                  "size": 330,
+                  "price": 4.9,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "fa319960-3fe3-4b1b-a023-e327fa5204ef",
+          "layer1": false,
+          "name": "berliner",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "a9f76f8d-91e6-4aea-8095-168562523fc1",
+              "layer1": false,
+              "name": "weisse",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "899c33b0-075c-4dd6-8bc7-f132fc8bcb9b",
+                  "layer1": false,
+                  "name": "rot",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "berliner weisse rot",
+                  "category": "bier",
+                  "var": [
+                    {
+                      "id": "0a226f8d-bb5a-4921-94e9-4b346ac9b875",
+                      "size": 330,
+                      "price": 4.2,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                },
+                {
+                  "id": "a27851cd-ced6-4394-aa82-bca06a79486b",
+                  "layer1": false,
+                  "name": "grün",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "berliner weisse grün",
+                  "category": "bier",
+                  "var": [
+                    {
+                      "id": "882db510-dda1-49ca-8256-7e7c9a2d2b21",
+                      "size": 330,
+                      "price": 4.2,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": true
+    },
+    {
+      "id": "68944f6a-cef6-42d4-a10c-8dd1ca1fea90",
+      "layer1": true,
+      "name": "wein",
+      "synonym": [
+        "schoppenwein"
+      ],
+      "default": null,
+      "child": [
+        {
+          "id": "ac419af6-4522-4327-a580-cec9eff32ab8",
+          "layer1": false,
+          "name": "weißwein",
+          "synonym": [],
+          "default": "chardonnay",
+          "child": [
+            {
+              "id": "66e1f91b-2ff5-482f-8ca8-14ce7db02ab4",
+              "layer1": false,
+              "name": "chardonnay",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "chardonnay",
+              "category": "wein",
+              "var": [
+                {
+                  "id": "9405e6b8-a70a-43c2-bd93-52ab00a8f609",
+                  "size": 200,
+                  "price": 4.7,
+                  "default": null
+                },
+                {
+                  "id": "16aa29d9-0573-4463-846d-3e983c3d2dca",
+                  "size": 500,
+                  "price": 11.5,
+                  "default": null
+                },
+                {
+                  "id": "08e08412-0cd4-40e3-be40-f42e837801d7",
+                  "size": 1000,
+                  "price": 21.5,
+                  "default": null
+                }
+              ],
+              "alone": false
+            },
+            {
+              "id": "7e59cb89-9b53-4b80-b19b-67f861de352f",
+              "layer1": false,
+              "name": "veltiner",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "74b846fa-9445-40ea-8678-4e44081e36ac",
+                  "layer1": false,
+                  "name": "grün",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "grüner veltiner",
+                  "category": "wein",
+                  "var": [
+                    {
+                      "id": "6264fd22-c0e0-44cc-b734-b8b35c859ca1",
+                      "size": 200,
+                      "price": 4.3,
+                      "default": null
+                    },
+                    {
+                      "id": "33fce627-0876-4aab-b6f8-c00f8e6b7a01",
+                      "size": 500,
+                      "price": 9.9,
+                      "default": null
+                    },
+                    {
+                      "id": "6e479448-f1ed-4274-9da8-ba718012fce4",
+                      "size": 1000,
+                      "price": 19.5,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "dd4b04d2-2273-488a-a3d8-6d3725c4a353",
+          "layer1": false,
+          "name": "rotwein",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "6da717f4-b9d0-4afc-9e9b-333e420fb2b6",
+              "layer1": false,
+              "name": "zweigelt",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "8df754f9-56e3-489d-9c86-c1312c4b2d99",
+                  "layer1": false,
+                  "name": "blau",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "blauer zweigelt",
+                  "category": "wein",
+                  "var": [
+                    {
+                      "id": "f46b390e-48e7-45f3-95c0-fbb17fbf7cb7",
+                      "size": 200,
+                      "price": 4.7,
+                      "default": null
+                    },
+                    {
+                      "id": "681a522a-e1e3-46b0-8947-b59d967ae57a",
+                      "size": 500,
+                      "price": 11.5,
+                      "default": null
+                    },
+                    {
+                      "id": "90086b59-4f5e-4c4d-9ea6-edbfe3546f6d",
+                      "size": 1000,
+                      "price": 21.5,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "251cb47c-e031-42d2-868e-d8ac2a4a8a3c",
+      "layer1": true,
+      "name": "sekt",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "c72b9d91-9917-40b3-8398-8cece339c71b",
+          "layer1": false,
+          "name": "prosecco",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "4eb0111f-ada7-4aaa-b23d-fd9a423ac1ee",
+              "layer1": false,
+              "name": "frizzante",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "prosecco frizzante",
+              "category": "wein",
+              "var": [
+                {
+                  "id": "ff227370-feb1-445e-a811-3f87582b3c9c",
+                  "size": 100,
+                  "price": 4.5,
+                  "default": null
+                },
+                {
+                  "id": "90fd4515-3da9-471a-a1dc-7a63ea49cbda",
+                  "size": 750,
+                  "price": 32,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "5f9d21b3-33b5-45c5-ac28-f7fa3de394b3",
+      "layer1": true,
+      "name": "champagne",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "cfa4f016-bd1a-47a7-8293-245adeeab17c",
+          "layer1": false,
+          "name": "saint",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "51aae7ce-5c13-4631-a201-4be13539966d",
+              "layer1": false,
+              "name": "gall",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "de st. gall",
+              "category": "wein",
+              "var": [
+                {
+                  "id": "a8c80ab4-0aa6-48b6-8e56-3b38025f947e",
+                  "size": 750,
+                  "price": 85,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "0c1825ee-40b6-4ede-82f1-740be68eecd0",
+      "layer1": true,
+      "name": "obstbrand",
+      "synonym": [
+        "edelobstbrand"
+      ],
+      "default": null,
+      "child": [
+        {
+          "id": "fcfac751-7ce3-4e20-9c5f-dd2f3d13c193",
+          "layer1": false,
+          "name": "waldhimbeer",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "746acc56-b130-489c-96be-d3e8712471b7",
+              "layer1": false,
+              "name": "geist",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "waldhimbeergeist",
+              "category": "schnaps",
+              "var": [
+                {
+                  "id": "a564047a-f74b-4deb-ad34-4fe0382efff2",
+                  "size": 20,
+                  "price": 4.8,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "687b0540-0fbd-41c9-b832-29a33a257cb5",
+          "layer1": false,
+          "name": "marillenbrand",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "marillenbrand",
+          "category": "schnaps",
+          "var": [
+            {
+              "id": "235fee5c-9dbf-413d-b6b6-0adc17d751ff",
+              "size": 20,
+              "price": 4.8,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "d36136ba-7aec-4d18-a777-0fe4cb5b019e",
+          "layer1": false,
+          "name": "holzfass",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "obstbrand aus dem holzfass",
+          "category": "schnaps",
+          "var": [
+            {
+              "id": "f7d7e386-8223-4a86-b52f-05f0712870ec",
+              "size": 20,
+              "price": 4.8,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "532dbe54-f6f9-4f20-8a8e-eb51d8b13e8c",
+          "layer1": false,
+          "name": "bierbrand",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "2a9f4db4-3168-4968-bdb1-e9661cca7985",
+              "layer1": false,
+              "name": "könig",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "962547a6-47ba-478b-8baa-4b610dced74f",
+                  "layer1": false,
+                  "name": "ludwig",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "könig ludwig bierbrand",
+                  "category": "schnaps",
+                  "var": [
+                    {
+                      "id": "21412283-ec4a-4919-b659-f6643c0c38b0",
+                      "size": 20,
+                      "price": 3.8,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "f04d7dd6-3792-448e-b8b3-709177aec680",
+      "layer1": true,
+      "name": "korn",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "48a60f47-fca3-460d-b6d4-bdeb7e42c7c5",
+          "layer1": false,
+          "name": "nordhäuser",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "nordhäuser korn",
+          "category": "schnaps",
+          "var": [
+            {
+              "id": "37b60818-f807-4564-b6a2-217e87b9d490",
+              "size": 20,
+              "price": 2.8,
+              "default": null
+            }
+          ],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "5a02f9b7-804c-4a85-91c6-adaddac961f8",
+      "layer1": true,
+      "name": "malteser",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "84c8e3c4-6a63-40cc-89e9-cc5558b9683d",
+          "layer1": false,
+          "name": "aquavit",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "malteser aquavit",
+          "category": "schnaps",
+          "var": [
+            {
+              "id": "8c7261e6-f068-413c-922d-f3d8cc4854b6",
+              "size": 20,
+              "price": 2.8,
+              "default": null
+            }
+          ],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "070f17de-435c-46cb-8f4a-78055d2aa8db",
+      "layer1": true,
+      "name": "wodka",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "64e61f23-1572-4df9-bc23-7cb1d593b92d",
+          "layer1": false,
+          "name": "moskovskaya",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "wodka moskovskaya",
+          "category": "schnaps",
+          "var": [
+            {
+              "id": "6a7e9b66-3f32-4800-89f7-90cde6258aff",
+              "size": 20,
+              "price": 2.8,
+              "default": null
+            }
+          ],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "bb439bc7-a011-4114-8ab6-eb101b6bead7",
+      "layer1": true,
+      "name": "johnnie",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "91b535d3-2ba2-4196-96e0-84b7b07671be",
+          "layer1": false,
+          "name": "walker",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "3ef98337-8fa3-4ee8-ac98-3e1494f1f224",
+              "layer1": false,
+              "name": "label",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "0344dedc-476c-4238-9b0b-728f920dadbe",
+                  "layer1": false,
+                  "name": "red",
+                  "synonym": [
+                    "rot"
+                  ],
+                  "default": "",
+                  "child": [],
+                  "productName": "johnnie walker - red label",
+                  "category": "schnaps",
+                  "var": [
+                    {
+                      "id": "84fc48c0-52db-48c4-b579-da561f30f3aa",
+                      "size": 40,
+                      "price": 6.5,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                },
+                {
+                  "id": "0c08525d-c42f-4304-860a-994d617b8ba5",
+                  "layer1": false,
+                  "name": "black",
+                  "synonym": [
+                    "schwarz"
+                  ],
+                  "default": "",
+                  "child": [],
+                  "productName": "johnnie walker - black label",
+                  "category": "schnaps",
+                  "var": [
+                    {
+                      "id": "a801a51e-1368-4866-bdfc-86d9581bea54",
+                      "size": 40,
+                      "price": 6.5,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "86b49922-2dbf-4f33-9c9a-dc44ad10eb03",
+      "layer1": true,
+      "name": "gran",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "33192ba7-27b9-49cf-a583-cb837a479987",
+          "layer1": false,
+          "name": "duque",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "ac32693d-fff7-436b-b7a9-86b4bd1816a0",
+              "layer1": false,
+              "name": "alba",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "de273917-f424-4057-abee-47289b70ad3e",
+                  "layer1": false,
+                  "name": "brandy",
+                  "synonym": [],
+                  "default": null,
+                  "child": [
+                    {
+                      "id": "be3f91ad-ab92-4c60-ac99-9716a7e55fdf",
+                      "layer1": false,
+                      "name": "jerez",
+                      "synonym": [],
+                      "default": "",
+                      "child": [],
+                      "productName": "gran duque d alba brandy de jerez",
+                      "category": "schnaps",
+                      "var": [
+                        {
+                          "id": "bbfc25ee-5b79-41eb-b395-e218f4222303",
+                          "size": 20,
+                          "price": 3.8,
+                          "default": null
+                        }
+                      ],
+                      "alone": false
+                    }
+                  ],
+                  "productName": null,
+                  "category": null,
+                  "var": [],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "93618bce-e75d-422b-9d2f-66d22916b656",
+      "layer1": true,
+      "name": "kümmel",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "49a2e337-f5d4-4078-b9a2-0b7c70a617e1",
+          "layer1": false,
+          "name": "kutscher",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "kutscher kümmel",
+          "category": "schnaps",
+          "var": [
+            {
+              "id": "117e10f0-dabd-468e-bd46-184462ae5852",
+              "size": 20,
+              "price": 2.9,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "e629c70a-5327-40cb-9068-65cf3354a23c",
+          "layer1": false,
+          "name": "dautes",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "dautes kümmel - ohne zucker",
+          "category": "schnaps",
+          "var": [
+            {
+              "id": "3ab626bb-ed2a-49af-b095-bbbb8c908a86",
+              "size": 20,
+              "price": 2.9,
+              "default": null
+            }
+          ],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "14c52597-c282-4099-9f3b-5e83e5bb4038",
+      "layer1": true,
+      "name": "longdrink",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "e572eeca-9133-4a51-aad3-e426c5b5b264",
+          "layer1": false,
+          "name": "jack",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "52d70e6d-d367-4da7-9258-688cf7ac43c4",
+              "layer1": false,
+              "name": "daniels",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "9df17dd0-89e3-4f98-89fc-f4b70ef1a80b",
+                  "layer1": false,
+                  "name": "cola",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "jack daniels - cola",
+                  "category": "schnaps",
+                  "var": [
+                    {
+                      "id": "089f8d32-d907-44a9-a308-20bbd7c5c527",
+                      "size": 40,
+                      "price": 7.9,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "fc725684-b087-441c-84de-736a7a18882f",
+          "layer1": false,
+          "name": "kirsch",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "157941e1-fa10-49bb-984f-d20ae035e1be",
+              "layer1": false,
+              "name": "batida",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "batida kirsch",
+              "category": "schnaps",
+              "var": [
+                {
+                  "id": "f9e78086-65df-44c2-9e59-5468bc0ed06b",
+                  "size": 40,
+                  "price": 7.9,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "498ac19d-82e3-4187-9209-f7ef8914d1e1",
+          "layer1": false,
+          "name": "likör 43",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "49848830-6683-4fb6-a2e3-28aece09b7ef",
+              "layer1": false,
+              "name": "milch",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "likör 43 mit milch",
+              "category": "schnaps",
+              "var": [
+                {
+                  "id": "dfcd7214-470f-453e-8ff8-91738707b189",
+                  "size": 40,
+                  "price": 7.9,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        },
+        {
+          "id": "28c98ecc-2788-4b4e-bcd2-f4c86d979fd1",
+          "layer1": false,
+          "name": "ginger ale",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "7a13ba71-2691-4b2f-8083-d6b63ea9cc79",
+              "layer1": false,
+              "name": "southern",
+              "synonym": [],
+              "default": null,
+              "child": [
+                {
+                  "id": "71a1d9f6-7f27-4174-acaa-8dc01f34700b",
+                  "layer1": false,
+                  "name": "comfort",
+                  "synonym": [],
+                  "default": "",
+                  "child": [],
+                  "productName": "southern comfort - ginger ale",
+                  "category": "schnaps",
+                  "var": [
+                    {
+                      "id": "f613d8cc-e12f-4b6b-8d9d-aa16285018fc",
+                      "size": 40,
+                      "price": 7.9,
+                      "default": null
+                    }
+                  ],
+                  "alone": false
+                }
+              ],
+              "productName": null,
+              "category": null,
+              "var": [],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "77990f7e-f95b-47e3-aa73-23244646d346",
+      "layer1": true,
+      "name": "wasser",
+      "synonym": [],
+      "default": "tafel",
+      "child": [
+        {
+          "id": "d8026ca8-8417-4da6-a089-d8ccbf55b027",
+          "layer1": false,
+          "name": "tafel",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "tafelwasser",
+          "category": "schnaps",
+          "var": [
+            {
+              "id": "b5c63fae-9720-42f4-8009-93485b055abd",
+              "size": 200,
+              "price": 1.9,
+              "default": null
+            },
+            {
+              "id": "82d4c850-281b-4dd3-bdbb-619740922693",
+              "size": 400,
+              "price": 3.8,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "981684d3-2394-46ec-8edd-08bea8400ef4",
+          "layer1": false,
+          "name": "vöslauer",
+          "synonym": [],
+          "default": null,
+          "child": [
+            {
+              "id": "b6d2c40f-19fb-48f0-8f61-c7b7e97d07fb",
+              "layer1": false,
+              "name": "medium",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "vöslauer 'prickelnd'",
+              "category": "schnaps",
+              "var": [
+                {
+                  "id": "95bc3101-2514-4a4f-a6a9-724ce178eff0",
+                  "size": 250,
+                  "price": 2.6,
+                  "default": null
+                },
+                {
+                  "id": "4dc0f8a0-d634-44c6-9a93-ef7cd501d213",
+                  "size": 750,
+                  "price": 5.9,
+                  "default": true
+                }
+              ],
+              "alone": false
+            },
+            {
+              "id": "4cb9ec84-0ca3-4258-b70d-65c23ca2099d",
+              "layer1": false,
+              "name": "still",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "vöslauer 'ohne'",
+              "category": "schnaps",
+              "var": [
+                {
+                  "id": "38573e8b-0f76-47bf-b8e4-1c4ac8b1d943",
+                  "size": 250,
+                  "price": 2.6,
+                  "default": null
+                },
+                {
+                  "id": "0cf9e251-fada-45b6-99b2-f3b684531e06",
+                  "size": 750,
+                  "price": 5.9,
+                  "default": null
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": null,
+          "category": null,
+          "var": [],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "f266a032-5826-4cac-81f5-c131a668b177",
+      "layer1": true,
+      "name": "saft",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "3d1b2669-0430-4579-a3e9-28b1a058218e",
+          "layer1": false,
+          "name": "orange",
+          "synonym": [
+            "orangensaft",
+            "osaft"
+          ],
+          "default": "",
+          "child": [],
+          "productName": "orangensaft",
+          "category": "saft",
+          "var": [
+            {
+              "id": "575b877e-0e75-422e-af7d-d7cb6c9826a8",
+              "size": 200,
+              "price": 2.9,
+              "default": null
+            },
+            {
+              "id": "e7ddd2b3-e1e6-4d82-8f7a-b353929b59f8",
+              "size": 400,
+              "price": 4.6,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "9f96cb47-d700-4ac6-abe9-13c085b9d3c8",
+          "layer1": false,
+          "name": "apfel",
+          "synonym": [
+            "apfelsaft"
+          ],
+          "default": "",
+          "child": [],
+          "productName": "apfelsaft",
+          "category": "saft",
+          "var": [
+            {
+              "id": "7de7baef-15f7-4d7e-9b0f-661f2d3032b1",
+              "size": 200,
+              "price": 2.9,
+              "default": null
+            },
+            {
+              "id": "6847177b-b7f4-4d8d-a476-4de5b7cea31f",
+              "size": 400,
+              "price": 4.6,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "af2d84d2-d5e9-4c15-b31f-c7ce4755c560",
+          "layer1": false,
+          "name": "kirsch",
+          "synonym": [
+            "kirschsaft"
+          ],
+          "default": "",
+          "child": [],
+          "productName": "kirschsaft",
+          "category": "saft",
+          "var": [
+            {
+              "id": "9cea0c46-c4ca-45a6-8495-98484fb1193b",
+              "size": 200,
+              "price": 2.9,
+              "default": null
+            },
+            {
+              "id": "9b274778-bbdd-4925-a384-03a8e0597bcc",
+              "size": 400,
+              "price": 4.6,
+              "default": null
+            }
+          ],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "924d19a6-b0a4-4732-bebb-3bc42fa9c7b0",
+      "layer1": true,
+      "name": "kaffee",
+      "synonym": [],
+      "default": "creme",
+      "child": [
+        {
+          "id": "83019c19-7fa4-429f-8a2f-77d19875248b",
+          "layer1": false,
+          "name": "creme",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "kaffee creme",
+          "category": "heissgetränke",
+          "var": [
+            {
+              "id": "5c45936f-1665-46dd-b009-b467f616bcec",
+              "size": 200,
+              "price": 2.5,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "77b86060-c8e9-4b3f-ae70-0e1c7f71e3c7",
+          "layer1": false,
+          "name": "milchkaffee",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "milchkaffee",
+          "category": "heissgetränke",
+          "var": [
+            {
+              "id": "0d89b74d-405e-4a35-8723-93651715f23e",
+              "size": 200,
+              "price": 3.5,
+              "default": null
+            }
+          ],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "ef8b3507-9a33-4da7-8dc5-4bb28d72d0d5",
+      "layer1": true,
+      "name": "schokolade",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "c19556bf-674f-41fa-97de-bd2b2b84e24a",
+          "layer1": false,
+          "name": "heiß",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "heiße schokolade",
+          "category": "heissgetränke",
+          "var": [
+            {
+              "id": "86f2b5eb-1578-4c21-b200-b5cc5158e74b",
+              "size": 200,
+              "price": 3.9,
+              "default": null
+            }
+          ],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "7b973047-cef5-4174-a7b6-d9576bb6df49",
+      "layer1": true,
+      "name": "espresso",
+      "synonym": [],
+      "default": null,
+      "child": [
+        {
+          "id": "4f619869-a4de-4ba6-9976-734a018f090c",
+          "layer1": false,
+          "name": "normal",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "einfacher espresso",
+          "category": "heissgetränke",
+          "var": [
+            {
+              "id": "8d6bbf2d-b26b-4baf-a4bf-2f2395e18b2b",
+              "size": 100,
+              "price": 1.9,
+              "default": null
+            }
+          ],
+          "alone": false
+        },
+        {
+          "id": "8b02e618-f02a-4958-bc6d-0f4ed967b6f1",
+          "layer1": false,
+          "name": "doppelt",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "doppelter espresso",
+          "category": "heissgetränke",
+          "var": [
+            {
+              "id": "3289d3a9-6e57-4bab-a613-b5e22a75e493",
+              "size": 200,
+              "price": 3.3,
+              "default": null
+            }
+          ],
+          "alone": false
+        }
+      ],
+      "productName": null,
+      "category": null,
+      "var": [],
+      "alone": false
+    }
+  ],
+  "defaultParents": [],
+  "restaurantId": "195d4792-e771-4d0b-8b45-df96a2965f2f"
+}

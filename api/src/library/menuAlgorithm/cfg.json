@@ -1,0 +1,248 @@
+{
+  "numbers": {
+    "content": [
+      {
+        "val": 1,
+        "synonym": ["eins", "ein", "einmal"]
+      },
+      {
+        "val": 2,
+        "synonym": ["zwei", "zweimal"]
+      },
+      {
+        "val": 3,
+        "synonym": ["drei", "dreimal"]
+      },
+      {
+        "val": 4,
+        "synonym": ["vier", "viermal"]
+      },
+      {
+        "val": 5,
+        "synonym": ["fünf", "fünfmal"]
+      },
+      {
+        "val": 6,
+        "synonym": ["sechs", "sechsmal"]
+      },
+      {
+        "val": 7,
+        "synonym": ["sieben", "siebenmal"]
+      },
+      {
+        "val": 8,
+        "synonym": ["acht", "achtmal"]
+      },
+      {
+        "val": 9,
+        "synonym": ["neun", "neunmal"]
+      },
+      {
+        "val": 10,
+        "synonym": ["zehn", "zehnmal"]
+      }
+    ]
+  },
+  "size": {
+    "small": [
+      "klein"
+    ],
+    "middle": [
+      "mittel",
+      "mittelgroß",
+      "mittler"
+    ],
+    "big": [
+      "riesig",
+      "groß",
+      "mächtig"
+    ],
+    "var": [
+      {
+        "val": 20,
+        "synonym": [
+          "20 centiliter"
+        ]
+      },
+      {
+        "val": 40,
+        "synonym": [
+          "40 centiliter",
+          "doppelt"
+        ]
+      },
+      {
+        "val": 150,
+        "synonym": [
+          "0,15",
+          "015",
+          "150 milliliter"
+        ]
+      },
+      {
+        "val": 200,
+        "synonym": [
+          "0,20",
+          "02",
+          "200 milliliter"
+        ]
+      },
+      {
+        "val": 250,
+        "synonym": [
+          "0,25",
+          "025",
+          "250 milliliter"
+        ]
+      },
+      {
+        "val": 300,
+        "synonym": [
+          "0,3",
+          "03",
+          "300 milliliter"
+        ]
+      },
+      {
+        "val": 330,
+        "synonym": [
+          "0,33",
+          "033",
+          "330 milliliter"
+        ]
+      },
+      {
+        "val": 400,
+        "synonym": [
+          "0,4",
+          "04",
+          "400 milliliter"
+        ]
+      },
+      {
+        "val": 500,
+        "synonym": [
+          "05",
+          "0,5",
+          "500 milliliter",
+          "halber liter",
+          "halben liter",
+          "halbe liter"
+        ]
+      },
+      {
+        "val": 750,
+        "synonym": [
+          "075",
+          "0,75",
+          "750 milliliter",
+          "dreiviertel liter",
+          "flasche"
+        ]
+      },
+      {
+        "val": 1000,
+        "synonym": [
+          "1000 milliliter",
+          "1 liter",
+          "ein liter"
+        ]
+      },
+      {
+        "val": 1500,
+        "synonym": [
+          "1500 milliliter",
+          "1,5 liter",
+          "15",
+          "anderthalb liter"
+        ]
+      }
+    ]
+  },
+  "conjunction": {
+    "add": [
+      "und",
+      "plus",
+      "außerdem",
+      "weiterhin",
+      "dann",
+      "noch"
+    ]
+  },
+  "splitRules": [
+    {
+      "rule": "nb-size-name",
+      "prob": 10
+    },
+    {
+      "rule": "nb-name",
+      "prob": 9
+    },
+    {
+      "rule": "nb-name-size",
+      "prob": 8
+    },
+    {
+      "rule": "name-size",
+      "prob": 7
+    },
+    {
+      "rule": "name-nb",
+      "prob": 6
+    },
+    {
+      "rule": "name-nb-size",
+      "prob": 5
+    },
+    {
+      "rule": "name-size-nb",
+      "prob": 4
+    },
+    {
+      "rule": "size-name",
+      "prob": 3
+    },
+    {
+      "rule": "size-name-nb",
+      "prob": 2
+    },
+    {
+      "rule": "size-nb-name",
+      "prob": 1
+    },
+    {
+      "rule": "name",
+      "prob": 0.5
+    }
+  ],
+  "defaultSynonyms": [
+    {
+      "name": "heiß",
+      "synonym": ["warm"]
+    },
+    {
+      "name": "kalt",
+      "synonym": ["kalt"]
+    },
+    {
+      "name": "schokolade",
+      "synonym": ["kakao"]
+    },
+    {
+      "name": "bier",
+      "synonym": ["kühles blondes"]
+    },
+    {
+      "name": "pilsener",
+      "synonym": ["pils"]
+    },
+    {
+      "name": "still",
+      "synonym": ["ohne kohlensäure", "pur"]
+    },
+    {
+      "name": "medium",
+      "synonym": ["prickelnd", "sprudel", "mit kohlensäure", "schorle"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "services": [
+        {
+            "name": "kellner",
+            "keywords": [
+                "kellner",
+                "personal",
+                "bestellen"
+            ]
+        },
+        {
+            "name": "rechnung",
+            "keywords": [
+                "rechnung",
+                "zahlen"
+            ]
+        }
+    ]
+}

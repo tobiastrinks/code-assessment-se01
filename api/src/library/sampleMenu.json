@@ -3,16 +3,14 @@
   "name": "Test Menu",
   "drinks": [
     {
-      "id": "69447440-0e42-4cb0-ac46-15743cec2622",
+      "id": "fe5f42eb-9a12-4188-8b73-c9809c24f02c",
       "layer1": true,
       "name": "bier",
-      "synonym": [
-        "vomfass"
-      ],
+      "synonym": [],
       "default": "jever",
       "child": [
         {
-          "id": "9676d108-80d9-448c-8b43-9825d6c0db52",
+          "id": "7c3d7c0a-c777-4361-93e5-883e1258087c",
           "layer1": false,
           "name": "börse",
           "synonym": [],
@@ -22,19 +20,19 @@
           "category": "bier",
           "var": [
             {
-              "id": "2ec419b8-180e-4455-98f4-dd40734028ea",
+              "id": "cbdcb8c0-a29d-4493-a490-b8abd917a527",
               "size": 300,
               "price": 2.6,
               "default": null
             },
             {
-              "id": "68574f86-760e-4549-80ce-9077f57ccb09",
+              "id": "0df475b2-ccc3-40d4-9f12-e108fe7630e0",
               "size": 500,
               "price": 3.9,
               "default": null
             },
             {
-              "id": "f2054d75-4311-499c-9bb4-2cfb33767d42",
+              "id": "e873f4fc-cb98-4d9f-a3f3-9f866ba0995a",
               "size": 1500,
               "price": 11.7,
               "default": null
@@ -43,14 +41,14 @@
           "alone": true
         },
         {
-          "id": "9b28e001-ae4c-4aa2-8d9d-c418fe8b4ded",
+          "id": "764902ed-b5e0-4581-99d6-671293a39eb1",
           "layer1": false,
           "name": "jever",
           "synonym": [],
           "default": "pilsener",
           "child": [
             {
-              "id": "942f64cc-64c6-4d71-a0cb-88f06c85bd8a",
+              "id": "c18bfcd3-29d5-4ca5-9b6a-7948a0d22a45",
               "layer1": false,
               "name": "pilsener",
               "synonym": [],
@@ -60,19 +58,19 @@
               "category": "bier",
               "var": [
                 {
-                  "id": "d8b32ecf-f41e-4047-8550-7b51a21f39fa",
+                  "id": "92acc851-8369-40ab-87d9-cf6495a9df7c",
                   "size": 300,
                   "price": 2.9,
                   "default": null
                 },
                 {
-                  "id": "352603fb-a9a8-472f-b378-b4a4a9141812",
+                  "id": "6253f7e3-e216-4730-9751-78018268848a",
                   "size": 500,
                   "price": 4.5,
                   "default": null
                 }
               ],
-              "alone": false
+              "alone": true
             }
           ],
           "productName": null,
@@ -81,21 +79,21 @@
           "alone": true
         },
         {
-          "id": "b5088a77-e630-4f8a-8680-c63162a6d0cd",
+          "id": "6203e626-a430-4920-aa5b-be4858a23380",
           "layer1": false,
           "name": "paulaner",
           "synonym": [],
           "default": "premium",
           "child": [
             {
-              "id": "0cf5d7f9-d3a0-4da7-921b-acf3c9b708e4",
+              "id": "60058031-2ed1-4b68-8634-adee9b764880",
               "layer1": false,
               "name": "premium",
               "synonym": [],
               "default": "pilsener",
               "child": [
                 {
-                  "id": "8b22489d-3822-4059-ae4e-c85d09414e7c",
+                  "id": "d3ea8378-f8bc-4d0b-8d25-ff68ae8fd090",
                   "layer1": false,
                   "name": "pilsener",
                   "synonym": [],
@@ -105,19 +103,19 @@
                   "category": "bier",
                   "var": [
                     {
-                      "id": "08045dc6-0cbb-4f3d-ad39-7e6309649061",
+                      "id": "69105b8d-c112-4c41-bbf8-b1fdbf1ca8db",
                       "size": 300,
                       "price": 3,
                       "default": null
                     },
                     {
-                      "id": "128863db-159b-4ffd-a2bf-615f63716e1f",
+                      "id": "2eee8a18-1716-4872-b5f8-980bcf52384c",
                       "size": 500,
                       "price": 4.5,
                       "default": null
                     },
                     {
-                      "id": "b7a75074-aaea-46c1-9844-47d2a3a7a93a",
+                      "id": "76d6959c-0d4f-4ab1-93c3-8d3e34398dfe",
                       "size": 1000,
                       "price": 9.9,
                       "default": null
@@ -132,14 +130,14 @@
               "alone": false
             },
             {
-              "id": "feb7c687-369a-4c65-bfaa-c6fd696fda1d",
+              "id": "d524cba6-97fb-4ef6-9da5-5cac5fb5761d",
               "layer1": false,
               "name": "kristall",
               "synonym": [],
               "default": null,
               "child": [
                 {
-                  "id": "3da42dd2-5bf7-41d2-af39-eab53ebd4ae3",
+                  "id": "2281da95-59e6-4ae8-a7f5-4fc3d8e61c6f",
                   "layer1": false,
                   "name": "weizen",
                   "synonym": [],
@@ -149,7 +147,7 @@
                   "category": "bier",
                   "var": [
                     {
-                      "id": "10543f55-8f7c-40e7-b148-247af0a0eaef",
+                      "id": "276f28a2-8f81-49b3-85f0-41d4482f74d4",
                       "size": 500,
                       "price": 4.5,
                       "default": null
@@ -170,14 +168,14 @@
           "alone": true
         },
         {
-          "id": "e8d8af28-f726-4e69-9688-9ad2c1e5ec2a",
+          "id": "7c31cfde-44bb-494d-a9fd-305438f49be9",
           "layer1": false,
           "name": "hacker",
           "synonym": [],
           "default": "pschorr",
           "child": [
             {
-              "id": "16b8fb74-a98e-46ca-afd1-301d76a42b31",
+              "id": "b1d66c85-5b5e-45a5-ad10-f2557e246fa3",
               "layer1": false,
               "name": "pschorr",
               "synonym": [],
@@ -187,19 +185,19 @@
               "category": "bier",
               "var": [
                 {
-                  "id": "1de5748e-1153-46aa-bd62-0792f978b7b0",
+                  "id": "5530134c-f63f-4258-a4f2-41f7731ffe3b",
                   "size": 300,
                   "price": 2.9,
                   "default": null
                 },
                 {
-                  "id": "e9fdeb3f-be5f-4949-ba89-2723091c9ff5",
+                  "id": "4497e7cf-e990-4a2c-88a3-d2f6f8a19e67",
                   "size": 500,
                   "price": 4.4,
                   "default": null
                 }
               ],
-              "alone": false
+              "alone": true
             }
           ],
           "productName": null,
@@ -208,14 +206,14 @@
           "alone": true
         },
         {
-          "id": "2c35b251-59c1-4827-a359-7f3e8d22bc1c",
+          "id": "e835c7e6-04f4-459a-a2e1-d03db6332896",
           "layer1": false,
           "name": "diebels",
           "synonym": [],
-          "default": null,
+          "default": "",
           "child": [
             {
-              "id": "ff018e9a-65e9-4e5c-b8f2-65d586e26ab4",
+              "id": "4c727619-3e48-4b10-894b-6e63df811eef",
               "layer1": false,
               "name": "alt",
               "synonym": [],
@@ -225,13 +223,13 @@
               "category": "bier",
               "var": [
                 {
-                  "id": "fa0dc963-fd4f-48ea-9486-c928349ea9a3",
+                  "id": "0134337c-e32b-42af-b486-b65688a73be4",
                   "size": 300,
                   "price": 2.9,
                   "default": null
                 },
                 {
-                  "id": "2e6263e3-92e8-4a83-957c-adc68cbb3dc6",
+                  "id": "32939664-0c0d-4263-a6df-a54203224fc8",
                   "size": 500,
                   "price": 4.4,
                   "default": null
@@ -240,54 +238,57 @@
               "alone": false
             }
           ],
-          "productName": null,
-          "category": null,
+          "productName": "",
+          "category": "",
           "var": [],
-          "alone": false
+          "alone": true
         },
         {
-          "id": "a59a2781-8899-4799-928f-4d9ba80608d7",
+          "id": "32e5fe06-b3d1-4eed-8790-a158d1ade546",
           "layer1": false,
           "name": "zwickl",
-          "synonym": [],
+          "synonym": [
+            "zwickel",
+            "zwicke"
+          ],
           "default": "",
           "child": [],
           "productName": "zwick'l",
           "category": "bier",
           "var": [
             {
-              "id": "190613dd-1268-453c-baa5-d5bdba3d30da",
+              "id": "cb22c506-2b2c-4529-b028-0664b531067a",
               "size": 300,
               "price": 2.9,
               "default": null
             },
             {
-              "id": "45270497-d56d-4304-a4bc-62ac3aad82f8",
+              "id": "4ec63794-c405-4bc0-94a1-bbd96562f971",
               "size": 500,
               "price": 4.5,
               "default": null
             }
           ],
-          "alone": false
+          "alone": true
         },
         {
-          "id": "ba14ce0f-3561-43e0-9480-9a1599fae246",
+          "id": "4dbed3c6-ef12-432d-8c6f-83a5ce44773c",
           "layer1": false,
           "name": "potsdamer",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "6eedd681-644c-43bb-b6ea-785528663e3a",
+              "id": "1abe51d4-2311-404c-a0bc-19c9d6dabd08",
               "layer1": false,
               "name": "rex",
               "synonym": [],
               "default": null,
               "child": [
                 {
-                  "id": "309bcd58-ef8f-4938-9b98-fcf8b5d72383",
+                  "id": "972fe18a-1e88-4742-b5ce-3b0d314d62ee",
                   "layer1": false,
-                  "name": "pils",
+                  "name": "pilsener",
                   "synonym": [],
                   "default": "",
                   "child": [],
@@ -295,13 +296,13 @@
                   "category": "bier",
                   "var": [
                     {
-                      "id": "b71a0418-ddcb-4aca-ac84-9f0a21fb9eec",
+                      "id": "c08c35a1-fefb-42b8-9553-5b1cdb9f2a6b",
                       "size": 300,
                       "price": 2.8,
                       "default": null
                     },
                     {
-                      "id": "71ba278f-2023-47a2-aa57-c57c87e06cf4",
+                      "id": "21072643-1167-4cd9-92d8-418518b507b8",
                       "size": 500,
                       "price": 4.2,
                       "default": null
@@ -322,14 +323,14 @@
           "alone": false
         },
         {
-          "id": "7fd78a5b-a131-4cf6-bb50-a3cf7f809a00",
+          "id": "1a8980ed-c3de-44a0-b499-9dca73238ba1",
           "layer1": false,
           "name": "kölsch",
           "synonym": [],
           "default": "sion",
           "child": [
             {
-              "id": "d0376c53-f81a-4e13-a52d-e6eae7e4504c",
+              "id": "3e0ebe11-1583-493c-acd3-a32c27b42df4",
               "layer1": false,
               "name": "sion",
               "synonym": [],
@@ -339,16 +340,16 @@
               "category": "bier",
               "var": [
                 {
-                  "id": "0d94eacc-e8c4-4e69-9b4b-0ae833fd8766",
+                  "id": "aa652052-6aa0-4852-bb3d-caee6d21a24a",
                   "size": 300,
                   "price": 2.8,
                   "default": null
                 }
               ],
-              "alone": false
+              "alone": true
             },
             {
-              "id": "6c7fbb58-f9b0-4d90-b382-176e031e2348",
+              "id": "de4ff3af-a823-48f6-916a-d235878879cf",
               "layer1": false,
               "name": "meter",
               "synonym": [],
@@ -358,7 +359,7 @@
               "category": "bier",
               "var": [
                 {
-                  "id": "aff24b68-2610-46ad-8775-6d89be3b6c33",
+                  "id": "d3dec8c6-004e-473d-9454-f19e78ad339e",
                   "size": 3300,
                   "price": 27,
                   "default": null
@@ -367,20 +368,20 @@
               "alone": false
             }
           ],
-          "productName": null,
-          "category": null,
+          "productName": "",
+          "category": "",
           "var": [],
-          "alone": false
+          "alone": true
         },
         {
-          "id": "6f8a3ce4-32d9-4da9-bf0c-7c103f994b0c",
+          "id": "444dd193-b548-4d7f-8d4e-7d9fdfd5549f",
           "layer1": false,
           "name": "gespritztes",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "37484bcf-c31e-4207-88bd-9bc5edd0c23b",
+              "id": "ca3f2544-7409-44ce-be47-d190739b8479",
               "layer1": false,
               "name": "fassbrause",
               "synonym": [],
@@ -390,13 +391,13 @@
               "category": "bier",
               "var": [
                 {
-                  "id": "1cb8d9e3-03ea-4dfd-aa86-b761ab49e2bd",
+                  "id": "85ec55f5-96db-4de4-9fa8-215996c1e8df",
                   "size": 300,
                   "price": 2.8,
                   "default": null
                 },
                 {
-                  "id": "8689aeb4-603f-4609-9806-9fce3c00cbc4",
+                  "id": "bc9cc364-9398-4e37-a359-06f2a8cccea4",
                   "size": 500,
                   "price": 4.3,
                   "default": null
@@ -411,53 +412,40 @@
           "alone": false
         },
         {
-          "id": "144e9d6d-7959-4df8-9006-b9ef5ca43f2a",
+          "id": "08ea8a96-c4ca-4ef5-939e-5198a85cb9bd",
           "layer1": false,
           "name": "corona",
           "synonym": [],
-          "default": null,
-          "child": [
+          "default": "",
+          "child": [],
+          "productName": "corona beer",
+          "category": "bier",
+          "var": [
             {
-              "id": "bc28708d-4e7b-47df-a2eb-1aca38218531",
-              "layer1": false,
-              "name": "beer",
-              "synonym": [],
-              "default": "",
-              "child": [],
-              "productName": "corona beer",
-              "category": "bier",
-              "var": [
-                {
-                  "id": "3a010dd4-3077-420c-8646-c179f6676ae0",
-                  "size": 330,
-                  "price": 4.9,
-                  "default": null
-                }
-              ],
-              "alone": false
+              "id": "13a4afb1-483b-4950-b7c4-a4fdf2db90ee",
+              "size": 330,
+              "price": 4.9,
+              "default": null
             }
           ],
-          "productName": null,
-          "category": null,
-          "var": [],
-          "alone": false
+          "alone": true
         },
         {
-          "id": "fa319960-3fe3-4b1b-a023-e327fa5204ef",
+          "id": "cf6e16fe-0207-49bd-9c5b-65e7757d5ab4",
           "layer1": false,
           "name": "berliner",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "a9f76f8d-91e6-4aea-8095-168562523fc1",
+              "id": "b96772b0-c508-4b0e-a644-05e33bb97ca8",
               "layer1": false,
               "name": "weisse",
               "synonym": [],
               "default": null,
               "child": [
                 {
-                  "id": "899c33b0-075c-4dd6-8bc7-f132fc8bcb9b",
+                  "id": "f2e43cab-69f1-465d-8ad5-cafeeca0fb62",
                   "layer1": false,
                   "name": "rot",
                   "synonym": [],
@@ -467,7 +455,7 @@
                   "category": "bier",
                   "var": [
                     {
-                      "id": "0a226f8d-bb5a-4921-94e9-4b346ac9b875",
+                      "id": "149c7ef9-834b-4c96-b74c-fa23c2e98538",
                       "size": 330,
                       "price": 4.2,
                       "default": null
@@ -476,7 +464,7 @@
                   "alone": false
                 },
                 {
-                  "id": "a27851cd-ced6-4394-aa82-bca06a79486b",
+                  "id": "cfb6b9a0-f585-42bc-a2ca-25f99ad28052",
                   "layer1": false,
                   "name": "grün",
                   "synonym": [],
@@ -486,7 +474,7 @@
                   "category": "bier",
                   "var": [
                     {
-                      "id": "882db510-dda1-49ca-8256-7e7c9a2d2b21",
+                      "id": "1155863f-f5f8-41d7-9d5d-bb708a9463e1",
                       "size": 330,
                       "price": 4.2,
                       "default": null
@@ -507,13 +495,13 @@
           "alone": false
         }
       ],
-      "productName": null,
-      "category": null,
+      "productName": "",
+      "category": "",
       "var": [],
       "alone": true
     },
     {
-      "id": "68944f6a-cef6-42d4-a10c-8dd1ca1fea90",
+      "id": "9bede40a-e72e-4e9b-9cbe-0139a2eef3b0",
       "layer1": true,
       "name": "wein",
       "synonym": [
@@ -522,14 +510,14 @@
       "default": null,
       "child": [
         {
-          "id": "ac419af6-4522-4327-a580-cec9eff32ab8",
+          "id": "ba9cc5cb-d899-42bb-b182-7c71d60a9cef",
           "layer1": false,
           "name": "weißwein",
           "synonym": [],
           "default": "chardonnay",
           "child": [
             {
-              "id": "66e1f91b-2ff5-482f-8ca8-14ce7db02ab4",
+              "id": "4fca5814-1150-4c09-ac21-e17e3a7ba282",
               "layer1": false,
               "name": "chardonnay",
               "synonym": [],
@@ -539,35 +527,35 @@
               "category": "wein",
               "var": [
                 {
-                  "id": "9405e6b8-a70a-43c2-bd93-52ab00a8f609",
+                  "id": "09fb8083-a317-4652-9a13-5ecbe8c6df2f",
                   "size": 200,
                   "price": 4.7,
                   "default": null
                 },
                 {
-                  "id": "16aa29d9-0573-4463-846d-3e983c3d2dca",
+                  "id": "c31d0a56-d141-4b5c-ae27-fed393d6ef30",
                   "size": 500,
                   "price": 11.5,
                   "default": null
                 },
                 {
-                  "id": "08e08412-0cd4-40e3-be40-f42e837801d7",
+                  "id": "88129d0c-c598-4a0b-9fc8-eb9ee97c18ae",
                   "size": 1000,
                   "price": 21.5,
                   "default": null
                 }
               ],
-              "alone": false
+              "alone": true
             },
             {
-              "id": "7e59cb89-9b53-4b80-b19b-67f861de352f",
+              "id": "5d0c6bf6-a231-4a20-86c9-506d8169be6c",
               "layer1": false,
               "name": "veltiner",
               "synonym": [],
-              "default": null,
+              "default": "",
               "child": [
                 {
-                  "id": "74b846fa-9445-40ea-8678-4e44081e36ac",
+                  "id": "4438f61f-37c1-45f3-a1d3-c146fa9f2eb6",
                   "layer1": false,
                   "name": "grün",
                   "synonym": [],
@@ -577,19 +565,19 @@
                   "category": "wein",
                   "var": [
                     {
-                      "id": "6264fd22-c0e0-44cc-b734-b8b35c859ca1",
+                      "id": "f3506df8-1270-43f6-b3cb-5920ee7013a7",
                       "size": 200,
                       "price": 4.3,
                       "default": null
                     },
                     {
-                      "id": "33fce627-0876-4aab-b6f8-c00f8e6b7a01",
+                      "id": "a351c3eb-bc18-4448-a214-e22cb78ddcfe",
                       "size": 500,
                       "price": 9.9,
                       "default": null
                     },
                     {
-                      "id": "6e479448-f1ed-4274-9da8-ba718012fce4",
+                      "id": "b72d855c-6858-4428-8354-6079b68c165e",
                       "size": 1000,
                       "price": 19.5,
                       "default": null
@@ -598,33 +586,33 @@
                   "alone": false
                 }
               ],
-              "productName": null,
-              "category": null,
+              "productName": "",
+              "category": "",
               "var": [],
-              "alone": false
+              "alone": true
             }
           ],
-          "productName": null,
-          "category": null,
+          "productName": "",
+          "category": "",
           "var": [],
-          "alone": false
+          "alone": true
         },
         {
-          "id": "dd4b04d2-2273-488a-a3d8-6d3725c4a353",
+          "id": "7612a45d-3266-4dc2-b920-06eb35c7698c",
           "layer1": false,
           "name": "rotwein",
           "synonym": [],
-          "default": null,
+          "default": "",
           "child": [
             {
-              "id": "6da717f4-b9d0-4afc-9e9b-333e420fb2b6",
+              "id": "d7124944-9b76-4c4a-bd3e-98da0333e72e",
               "layer1": false,
               "name": "zweigelt",
               "synonym": [],
-              "default": null,
+              "default": "",
               "child": [
                 {
-                  "id": "8df754f9-56e3-489d-9c86-c1312c4b2d99",
+                  "id": "95f75e5b-e5a3-451d-864c-e503bd775047",
                   "layer1": false,
                   "name": "blau",
                   "synonym": [],
@@ -634,19 +622,19 @@
                   "category": "wein",
                   "var": [
                     {
-                      "id": "f46b390e-48e7-45f3-95c0-fbb17fbf7cb7",
+                      "id": "a697d0d1-03c0-478a-ae83-c640ca6d2aab",
                       "size": 200,
                       "price": 4.7,
                       "default": null
                     },
                     {
-                      "id": "681a522a-e1e3-46b0-8947-b59d967ae57a",
+                      "id": "e933d776-967a-41e3-909f-6ad4241d51e7",
                       "size": 500,
                       "price": 11.5,
                       "default": null
                     },
                     {
-                      "id": "90086b59-4f5e-4c4d-9ea6-edbfe3546f6d",
+                      "id": "9d310c68-78da-4bae-ab6c-5f921f42f64f",
                       "size": 1000,
                       "price": 21.5,
                       "default": null
@@ -655,16 +643,16 @@
                   "alone": false
                 }
               ],
-              "productName": null,
-              "category": null,
+              "productName": "",
+              "category": "",
               "var": [],
-              "alone": false
+              "alone": true
             }
           ],
-          "productName": null,
-          "category": null,
+          "productName": "",
+          "category": "",
           "var": [],
-          "alone": false
+          "alone": true
         }
       ],
       "productName": null,
@@ -673,21 +661,21 @@
       "alone": false
     },
     {
-      "id": "251cb47c-e031-42d2-868e-d8ac2a4a8a3c",
+      "id": "e314f4e9-c214-4e48-9675-59e975bcd5a5",
       "layer1": true,
       "name": "sekt",
       "synonym": [],
       "default": null,
       "child": [
         {
-          "id": "c72b9d91-9917-40b3-8398-8cece339c71b",
+          "id": "a4826925-20a0-4f82-a187-a26e5143682b",
           "layer1": false,
           "name": "prosecco",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "4eb0111f-ada7-4aaa-b23d-fd9a423ac1ee",
+              "id": "2ff750fb-603e-41e3-ac90-e94e44ed0d11",
               "layer1": false,
               "name": "frizzante",
               "synonym": [],
@@ -697,13 +685,13 @@
               "category": "wein",
               "var": [
                 {
-                  "id": "ff227370-feb1-445e-a811-3f87582b3c9c",
+                  "id": "732f1741-75ef-43b2-be5c-d43a3dbcad98",
                   "size": 100,
                   "price": 4.5,
                   "default": null
                 },
                 {
-                  "id": "90fd4515-3da9-471a-a1dc-7a63ea49cbda",
+                  "id": "cc454a17-f3c3-433b-b9a0-9e7be19a9829",
                   "size": 750,
                   "price": 32,
                   "default": null
@@ -724,21 +712,21 @@
       "alone": false
     },
     {
-      "id": "5f9d21b3-33b5-45c5-ac28-f7fa3de394b3",
+      "id": "d01b872b-e96e-4ecb-829b-c3f37b8d0563",
       "layer1": true,
       "name": "champagne",
       "synonym": [],
       "default": null,
       "child": [
         {
-          "id": "cfa4f016-bd1a-47a7-8293-245adeeab17c",
+          "id": "51fad94b-8bae-45d6-b4c8-fb9eee04ed2b",
           "layer1": false,
           "name": "saint",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "51aae7ce-5c13-4631-a201-4be13539966d",
+              "id": "217c3947-17bb-4af7-8f47-5d1fb3569b67",
               "layer1": false,
               "name": "gall",
               "synonym": [],
@@ -748,7 +736,7 @@
               "category": "wein",
               "var": [
                 {
-                  "id": "a8c80ab4-0aa6-48b6-8e56-3b38025f947e",
+                  "id": "240ac81e-f120-403f-9f3e-509aeb2490a1",
                   "size": 750,
                   "price": 85,
                   "default": null
@@ -769,7 +757,7 @@
       "alone": false
     },
     {
-      "id": "0c1825ee-40b6-4ede-82f1-740be68eecd0",
+      "id": "65ac756a-96ea-4540-8aab-4d34d5c9b339",
       "layer1": true,
       "name": "obstbrand",
       "synonym": [
@@ -778,14 +766,14 @@
       "default": null,
       "child": [
         {
-          "id": "fcfac751-7ce3-4e20-9c5f-dd2f3d13c193",
+          "id": "42450e7f-6702-4578-9748-d0db6b56d1df",
           "layer1": false,
           "name": "waldhimbeer",
           "synonym": [],
-          "default": null,
+          "default": "",
           "child": [
             {
-              "id": "746acc56-b130-489c-96be-d3e8712471b7",
+              "id": "712ef221-d1a4-4063-9387-5f2491cf8391",
               "layer1": false,
               "name": "geist",
               "synonym": [],
@@ -795,22 +783,22 @@
               "category": "schnaps",
               "var": [
                 {
-                  "id": "a564047a-f74b-4deb-ad34-4fe0382efff2",
+                  "id": "2b739d00-afdf-41a7-890d-302b55dc81ba",
                   "size": 20,
                   "price": 4.8,
                   "default": null
                 }
               ],
-              "alone": false
+              "alone": true
             }
           ],
-          "productName": null,
-          "category": null,
+          "productName": "",
+          "category": "",
           "var": [],
-          "alone": false
+          "alone": true
         },
         {
-          "id": "687b0540-0fbd-41c9-b832-29a33a257cb5",
+          "id": "bc816b17-8671-48a4-95b4-ddc81cc9a355",
           "layer1": false,
           "name": "marillenbrand",
           "synonym": [],
@@ -820,16 +808,16 @@
           "category": "schnaps",
           "var": [
             {
-              "id": "235fee5c-9dbf-413d-b6b6-0adc17d751ff",
+              "id": "b0dba3e7-1a63-49e8-b1f6-32dbd844806d",
               "size": 20,
               "price": 4.8,
               "default": null
             }
           ],
-          "alone": false
+          "alone": true
         },
         {
-          "id": "d36136ba-7aec-4d18-a777-0fe4cb5b019e",
+          "id": "d065715e-203c-4531-a209-afd22dee2c45",
           "layer1": false,
           "name": "holzfass",
           "synonym": [],
@@ -839,7 +827,7 @@
           "category": "schnaps",
           "var": [
             {
-              "id": "f7d7e386-8223-4a86-b52f-05f0712870ec",
+              "id": "f96fb1b1-e1f5-4a5a-9b03-907738b6e198",
               "size": 20,
               "price": 4.8,
               "default": null
@@ -848,21 +836,21 @@
           "alone": false
         },
         {
-          "id": "532dbe54-f6f9-4f20-8a8e-eb51d8b13e8c",
+          "id": "6f55619e-29fe-4bfc-8b4c-c18177feb79d",
           "layer1": false,
           "name": "bierbrand",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "2a9f4db4-3168-4968-bdb1-e9661cca7985",
+              "id": "30d3d2d6-963a-4d19-94fa-7a327af5c1a4",
               "layer1": false,
               "name": "könig",
               "synonym": [],
               "default": null,
               "child": [
                 {
-                  "id": "962547a6-47ba-478b-8baa-4b610dced74f",
+                  "id": "563fdec9-bfea-4e83-b8d8-aca0a23d0f0e",
                   "layer1": false,
                   "name": "ludwig",
                   "synonym": [],
@@ -872,7 +860,7 @@
                   "category": "schnaps",
                   "var": [
                     {
-                      "id": "21412283-ec4a-4919-b659-f6643c0c38b0",
+                      "id": "9418979c-634e-434e-aea6-32a3b1966647",
                       "size": 20,
                       "price": 3.8,
                       "default": null
@@ -899,14 +887,14 @@
       "alone": false
     },
     {
-      "id": "f04d7dd6-3792-448e-b8b3-709177aec680",
+      "id": "8d7adf27-749d-4ad1-b870-fa60c1b3a3a4",
       "layer1": true,
       "name": "korn",
       "synonym": [],
-      "default": null,
+      "default": "",
       "child": [
         {
-          "id": "48a60f47-fca3-460d-b6d4-bdeb7e42c7c5",
+          "id": "58b2ab19-907d-49cc-b1a2-9f4777106320",
           "layer1": false,
           "name": "nordhäuser",
           "synonym": [],
@@ -916,29 +904,29 @@
           "category": "schnaps",
           "var": [
             {
-              "id": "37b60818-f807-4564-b6a2-217e87b9d490",
+              "id": "2ea2bfdc-4a22-466e-bf01-a11436a648fe",
               "size": 20,
               "price": 2.8,
               "default": null
             }
           ],
-          "alone": false
+          "alone": true
         }
       ],
-      "productName": null,
-      "category": null,
+      "productName": "",
+      "category": "",
       "var": [],
-      "alone": false
+      "alone": true
     },
     {
-      "id": "5a02f9b7-804c-4a85-91c6-adaddac961f8",
+      "id": "5758c3d6-8ea0-4dba-b0ac-dd5d5ca5a37a",
       "layer1": true,
       "name": "malteser",
       "synonym": [],
-      "default": null,
+      "default": "",
       "child": [
         {
-          "id": "84c8e3c4-6a63-40cc-89e9-cc5558b9683d",
+          "id": "42b2e228-0802-43cf-bf8e-66c362ce49ec",
           "layer1": false,
           "name": "aquavit",
           "synonym": [],
@@ -948,29 +936,29 @@
           "category": "schnaps",
           "var": [
             {
-              "id": "8c7261e6-f068-413c-922d-f3d8cc4854b6",
+              "id": "d5c17369-fa4d-48d1-9bb0-28221dcc2103",
               "size": 20,
               "price": 2.8,
               "default": null
             }
           ],
-          "alone": false
+          "alone": true
         }
       ],
-      "productName": null,
-      "category": null,
+      "productName": "",
+      "category": "",
       "var": [],
-      "alone": false
+      "alone": true
     },
     {
-      "id": "070f17de-435c-46cb-8f4a-78055d2aa8db",
+      "id": "0ead5f8a-0a41-46ba-84a9-4bc85d200dfe",
       "layer1": true,
       "name": "wodka",
       "synonym": [],
       "default": null,
       "child": [
         {
-          "id": "64e61f23-1572-4df9-bc23-7cb1d593b92d",
+          "id": "9e5b3a7a-df20-4bf2-8aa7-be7922e7a8f7",
           "layer1": false,
           "name": "moskovskaya",
           "synonym": [],
@@ -980,7 +968,7 @@
           "category": "schnaps",
           "var": [
             {
-              "id": "6a7e9b66-3f32-4800-89f7-90cde6258aff",
+              "id": "3834a6c0-7ffa-4783-9d6b-dd0b9e48c26e",
               "size": 20,
               "price": 2.8,
               "default": null
@@ -995,28 +983,28 @@
       "alone": false
     },
     {
-      "id": "bb439bc7-a011-4114-8ab6-eb101b6bead7",
+      "id": "e28952e4-bea1-4945-b1e1-c185ea1b32f4",
       "layer1": true,
       "name": "johnnie",
       "synonym": [],
       "default": null,
       "child": [
         {
-          "id": "91b535d3-2ba2-4196-96e0-84b7b07671be",
+          "id": "c55f013d-8285-4b7f-af1f-352deaefd4f1",
           "layer1": false,
           "name": "walker",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "3ef98337-8fa3-4ee8-ac98-3e1494f1f224",
+              "id": "0a03a93c-ede0-49ec-af69-94784c3015d0",
               "layer1": false,
               "name": "label",
               "synonym": [],
               "default": null,
               "child": [
                 {
-                  "id": "0344dedc-476c-4238-9b0b-728f920dadbe",
+                  "id": "57606294-6597-4fca-ada4-bda8f57a73a2",
                   "layer1": false,
                   "name": "red",
                   "synonym": [
@@ -1028,7 +1016,7 @@
                   "category": "schnaps",
                   "var": [
                     {
-                      "id": "84fc48c0-52db-48c4-b579-da561f30f3aa",
+                      "id": "0f413dd4-a6ce-4623-90a2-2971fcfe6819",
                       "size": 40,
                       "price": 6.5,
                       "default": null
@@ -1037,7 +1025,7 @@
                   "alone": false
                 },
                 {
-                  "id": "0c08525d-c42f-4304-860a-994d617b8ba5",
+                  "id": "d391657e-601f-4915-916f-ea094f0cff68",
                   "layer1": false,
                   "name": "black",
                   "synonym": [
@@ -1049,7 +1037,7 @@
                   "category": "schnaps",
                   "var": [
                     {
-                      "id": "a801a51e-1368-4866-bdfc-86d9581bea54",
+                      "id": "dabcf80a-ec1d-40e0-b771-2b8b439eb360",
                       "size": 40,
                       "price": 6.5,
                       "default": null
@@ -1076,35 +1064,35 @@
       "alone": false
     },
     {
-      "id": "86b49922-2dbf-4f33-9c9a-dc44ad10eb03",
+      "id": "d189c1b1-e08e-45ac-a5b4-4050d7bf4063",
       "layer1": true,
       "name": "gran",
       "synonym": [],
       "default": null,
       "child": [
         {
-          "id": "33192ba7-27b9-49cf-a583-cb837a479987",
+          "id": "25b52b54-128d-48b7-af93-b9cc51e11c79",
           "layer1": false,
           "name": "duque",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "ac32693d-fff7-436b-b7a9-86b4bd1816a0",
+              "id": "83d37ed2-b5c5-4b46-a64c-754b4dad68d3",
               "layer1": false,
               "name": "alba",
               "synonym": [],
               "default": null,
               "child": [
                 {
-                  "id": "de273917-f424-4057-abee-47289b70ad3e",
+                  "id": "ddf5da3e-5298-4848-af93-7a2b206e6da2",
                   "layer1": false,
                   "name": "brandy",
                   "synonym": [],
                   "default": null,
                   "child": [
                     {
-                      "id": "be3f91ad-ab92-4c60-ac99-9716a7e55fdf",
+                      "id": "8496902b-5fe1-46b6-8216-2b0061ec0887",
                       "layer1": false,
                       "name": "jerez",
                       "synonym": [],
@@ -1114,7 +1102,7 @@
                       "category": "schnaps",
                       "var": [
                         {
-                          "id": "bbfc25ee-5b79-41eb-b395-e218f4222303",
+                          "id": "834e56e9-f11a-4fa1-a2e0-e34b88a44507",
                           "size": 20,
                           "price": 3.8,
                           "default": null
@@ -1147,14 +1135,14 @@
       "alone": false
     },
     {
-      "id": "93618bce-e75d-422b-9d2f-66d22916b656",
+      "id": "aa90f47e-a44c-46af-b410-708741780bf0",
       "layer1": true,
       "name": "kümmel",
       "synonym": [],
-      "default": null,
+      "default": "",
       "child": [
         {
-          "id": "49a2e337-f5d4-4078-b9a2-0b7c70a617e1",
+          "id": "0ce90fa9-9c64-40f6-b831-dba5edc7ba80",
           "layer1": false,
           "name": "kutscher",
           "synonym": [],
@@ -1164,16 +1152,16 @@
           "category": "schnaps",
           "var": [
             {
-              "id": "117e10f0-dabd-468e-bd46-184462ae5852",
+              "id": "c61ca1f9-506d-4f10-960a-57d971ad6265",
               "size": 20,
               "price": 2.9,
               "default": null
             }
           ],
-          "alone": false
+          "alone": true
         },
         {
-          "id": "e629c70a-5327-40cb-9068-65cf3354a23c",
+          "id": "7f2ec058-b7b9-4a8a-9fec-505e3e57d45d",
           "layer1": false,
           "name": "dautes",
           "synonym": [],
@@ -1183,7 +1171,7 @@
           "category": "schnaps",
           "var": [
             {
-              "id": "3ab626bb-ed2a-49af-b095-bbbb8c908a86",
+              "id": "a637dca3-a19d-43c3-8519-cb7120df930b",
               "size": 20,
               "price": 2.9,
               "default": null
@@ -1192,72 +1180,27 @@
           "alone": false
         }
       ],
-      "productName": null,
-      "category": null,
+      "productName": "",
+      "category": "",
       "var": [],
-      "alone": false
+      "alone": true
     },
     {
-      "id": "14c52597-c282-4099-9f3b-5e83e5bb4038",
+      "id": "3ac95bdc-5993-4c7c-9c09-af414033cfed",
       "layer1": true,
       "name": "longdrink",
       "synonym": [],
       "default": null,
       "child": [
         {
-          "id": "e572eeca-9133-4a51-aad3-e426c5b5b264",
-          "layer1": false,
-          "name": "jack",
-          "synonym": [],
-          "default": null,
-          "child": [
-            {
-              "id": "52d70e6d-d367-4da7-9258-688cf7ac43c4",
-              "layer1": false,
-              "name": "daniels",
-              "synonym": [],
-              "default": null,
-              "child": [
-                {
-                  "id": "9df17dd0-89e3-4f98-89fc-f4b70ef1a80b",
-                  "layer1": false,
-                  "name": "cola",
-                  "synonym": [],
-                  "default": "",
-                  "child": [],
-                  "productName": "jack daniels - cola",
-                  "category": "schnaps",
-                  "var": [
-                    {
-                      "id": "089f8d32-d907-44a9-a308-20bbd7c5c527",
-                      "size": 40,
-                      "price": 7.9,
-                      "default": null
-                    }
-                  ],
-                  "alone": false
-                }
-              ],
-              "productName": null,
-              "category": null,
-              "var": [],
-              "alone": false
-            }
-          ],
-          "productName": null,
-          "category": null,
-          "var": [],
-          "alone": false
-        },
-        {
-          "id": "fc725684-b087-441c-84de-736a7a18882f",
+          "id": "ef0ab466-962a-4afe-8141-b9fe8b6a23c5",
           "layer1": false,
           "name": "kirsch",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "157941e1-fa10-49bb-984f-d20ae035e1be",
+              "id": "88384a12-484f-4281-a7f7-81d20c9bc01a",
               "layer1": false,
               "name": "batida",
               "synonym": [],
@@ -1267,7 +1210,7 @@
               "category": "schnaps",
               "var": [
                 {
-                  "id": "f9e78086-65df-44c2-9e59-5468bc0ed06b",
+                  "id": "6f724187-6a3a-41f1-b30e-66132379834c",
                   "size": 40,
                   "price": 7.9,
                   "default": null
@@ -1282,14 +1225,14 @@
           "alone": false
         },
         {
-          "id": "498ac19d-82e3-4187-9209-f7ef8914d1e1",
+          "id": "56d27476-fc31-4150-a997-ceb1fb59c091",
           "layer1": false,
           "name": "likör 43",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "49848830-6683-4fb6-a2e3-28aece09b7ef",
+              "id": "19ce92fa-b3e7-4c28-926d-d53410809283",
               "layer1": false,
               "name": "milch",
               "synonym": [],
@@ -1299,7 +1242,7 @@
               "category": "schnaps",
               "var": [
                 {
-                  "id": "dfcd7214-470f-453e-8ff8-91738707b189",
+                  "id": "accf0ca1-0d6b-45f0-9c1a-4069aac9e49e",
                   "size": 40,
                   "price": 7.9,
                   "default": null
@@ -1314,21 +1257,21 @@
           "alone": false
         },
         {
-          "id": "28c98ecc-2788-4b4e-bcd2-f4c86d979fd1",
+          "id": "a9a7e954-3a8c-4237-910a-469e2820860b",
           "layer1": false,
           "name": "ginger ale",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "7a13ba71-2691-4b2f-8083-d6b63ea9cc79",
+              "id": "bfba0a75-30bd-4db0-a9aa-ee7526ef7961",
               "layer1": false,
               "name": "southern",
               "synonym": [],
               "default": null,
               "child": [
                 {
-                  "id": "71a1d9f6-7f27-4174-acaa-8dc01f34700b",
+                  "id": "318df68a-cc09-4d9c-a272-9c713be701f1",
                   "layer1": false,
                   "name": "comfort",
                   "synonym": [],
@@ -1338,7 +1281,7 @@
                   "category": "schnaps",
                   "var": [
                     {
-                      "id": "f613d8cc-e12f-4b6b-8d9d-aa16285018fc",
+                      "id": "2dbc1c53-23a6-4583-bb6c-a40033591941",
                       "size": 40,
                       "price": 7.9,
                       "default": null
@@ -1365,14 +1308,14 @@
       "alone": false
     },
     {
-      "id": "77990f7e-f95b-47e3-aa73-23244646d346",
+      "id": "ef55ec02-c1ed-4852-ac14-7e8664bb2673",
       "layer1": true,
       "name": "wasser",
       "synonym": [],
       "default": "tafel",
       "child": [
         {
-          "id": "d8026ca8-8417-4da6-a089-d8ccbf55b027",
+          "id": "80cc9243-9b4f-4d38-87c5-8bf40dd13e61",
           "layer1": false,
           "name": "tafel",
           "synonym": [],
@@ -1382,13 +1325,13 @@
           "category": "schnaps",
           "var": [
             {
-              "id": "b5c63fae-9720-42f4-8009-93485b055abd",
+              "id": "645dcbe7-3502-491e-9da0-16d48f3aa8aa",
               "size": 200,
               "price": 1.9,
               "default": null
             },
             {
-              "id": "82d4c850-281b-4dd3-bdbb-619740922693",
+              "id": "bcc90fdb-ae23-4888-97e7-77525c4a1ba6",
               "size": 400,
               "price": 3.8,
               "default": null
@@ -1397,14 +1340,14 @@
           "alone": false
         },
         {
-          "id": "981684d3-2394-46ec-8edd-08bea8400ef4",
+          "id": "42ed490b-cdbe-4958-bb22-aaa0798caabd",
           "layer1": false,
           "name": "vöslauer",
           "synonym": [],
           "default": null,
           "child": [
             {
-              "id": "b6d2c40f-19fb-48f0-8f61-c7b7e97d07fb",
+              "id": "41fbe8d3-e46c-44ab-a8a3-df02403ca672",
               "layer1": false,
               "name": "medium",
               "synonym": [],
@@ -1414,13 +1357,13 @@
               "category": "schnaps",
               "var": [
                 {
-                  "id": "95bc3101-2514-4a4f-a6a9-724ce178eff0",
+                  "id": "9d82c5ab-d380-496c-a87f-86062b20d009",
                   "size": 250,
                   "price": 2.6,
                   "default": null
                 },
                 {
-                  "id": "4dc0f8a0-d634-44c6-9a93-ef7cd501d213",
+                  "id": "2fa787af-03ca-45be-8f89-20b66ca498bf",
                   "size": 750,
                   "price": 5.9,
                   "default": true
@@ -1429,7 +1372,7 @@
               "alone": false
             },
             {
-              "id": "4cb9ec84-0ca3-4258-b70d-65c23ca2099d",
+              "id": "8e293ee0-6f4a-4370-a5a6-05ca2c02a458",
               "layer1": false,
               "name": "still",
               "synonym": [],
@@ -1439,13 +1382,13 @@
               "category": "schnaps",
               "var": [
                 {
-                  "id": "38573e8b-0f76-47bf-b8e4-1c4ac8b1d943",
+                  "id": "2809fd1e-7bd4-45d2-9db8-5eecd19b648b",
                   "size": 250,
                   "price": 2.6,
                   "default": null
                 },
                 {
-                  "id": "0cf9e251-fada-45b6-99b2-f3b684531e06",
+                  "id": "c6208d8a-61d8-4734-a020-df166f595845",
                   "size": 750,
                   "price": 5.9,
                   "default": null
@@ -1466,14 +1409,14 @@
       "alone": false
     },
     {
-      "id": "f266a032-5826-4cac-81f5-c131a668b177",
+      "id": "3dfe96a3-793d-49ea-8b0c-0855eb5ea16f",
       "layer1": true,
       "name": "saft",
       "synonym": [],
       "default": null,
       "child": [
         {
-          "id": "3d1b2669-0430-4579-a3e9-28b1a058218e",
+          "id": "868d451e-2f01-4946-8676-604c67edd197",
           "layer1": false,
           "name": "orange",
           "synonym": [
@@ -1486,13 +1429,13 @@
           "category": "saft",
           "var": [
             {
-              "id": "575b877e-0e75-422e-af7d-d7cb6c9826a8",
+              "id": "e5c4c5a1-144f-45f9-a2c5-c646f8bae741",
               "size": 200,
               "price": 2.9,
               "default": null
             },
             {
-              "id": "e7ddd2b3-e1e6-4d82-8f7a-b353929b59f8",
+              "id": "fa78b709-c826-430b-971d-f744828569c2",
               "size": 400,
               "price": 4.6,
               "default": null
@@ -1501,7 +1444,7 @@
           "alone": false
         },
         {
-          "id": "9f96cb47-d700-4ac6-abe9-13c085b9d3c8",
+          "id": "1c2fa4a8-1e7d-4c5d-955d-676d0374fc5d",
           "layer1": false,
           "name": "apfel",
           "synonym": [
@@ -1513,13 +1456,13 @@
           "category": "saft",
           "var": [
             {
-              "id": "7de7baef-15f7-4d7e-9b0f-661f2d3032b1",
+              "id": "b220d1d4-8f24-40bd-92bb-096af9d33739",
               "size": 200,
               "price": 2.9,
               "default": null
             },
             {
-              "id": "6847177b-b7f4-4d8d-a476-4de5b7cea31f",
+              "id": "9e173506-254a-4777-816f-56e1c4f1a8fe",
               "size": 400,
               "price": 4.6,
               "default": null
@@ -1528,7 +1471,7 @@
           "alone": false
         },
         {
-          "id": "af2d84d2-d5e9-4c15-b31f-c7ce4755c560",
+          "id": "e255997d-e723-44cd-a116-9af387c14436",
           "layer1": false,
           "name": "kirsch",
           "synonym": [
@@ -1540,13 +1483,13 @@
           "category": "saft",
           "var": [
             {
-              "id": "9cea0c46-c4ca-45a6-8495-98484fb1193b",
+              "id": "e8f3c201-1f06-41b0-8f07-5347673ebb60",
               "size": 200,
               "price": 2.9,
               "default": null
             },
             {
-              "id": "9b274778-bbdd-4925-a384-03a8e0597bcc",
+              "id": "6f8b7003-34a2-4040-a682-131be8131762",
               "size": 400,
               "price": 4.6,
               "default": null
@@ -1561,14 +1504,14 @@
       "alone": false
     },
     {
-      "id": "924d19a6-b0a4-4732-bebb-3bc42fa9c7b0",
+      "id": "f7e9f63c-9114-413a-afce-d447d9e34aa1",
       "layer1": true,
       "name": "kaffee",
       "synonym": [],
       "default": "creme",
       "child": [
         {
-          "id": "83019c19-7fa4-429f-8a2f-77d19875248b",
+          "id": "27af6d8f-9f43-4277-ae91-d3525a9cc7f1",
           "layer1": false,
           "name": "creme",
           "synonym": [],
@@ -1578,7 +1521,7 @@
           "category": "heissgetränke",
           "var": [
             {
-              "id": "5c45936f-1665-46dd-b009-b467f616bcec",
+              "id": "cfc9a006-ab2b-4a24-be40-4a2b34fa333f",
               "size": 200,
               "price": 2.5,
               "default": null
@@ -1587,7 +1530,7 @@
           "alone": false
         },
         {
-          "id": "77b86060-c8e9-4b3f-ae70-0e1c7f71e3c7",
+          "id": "f6173a8b-87cf-4fa7-a464-03fbad5d68f6",
           "layer1": false,
           "name": "milchkaffee",
           "synonym": [],
@@ -1597,29 +1540,29 @@
           "category": "heissgetränke",
           "var": [
             {
-              "id": "0d89b74d-405e-4a35-8723-93651715f23e",
+              "id": "60ece54f-f140-4ebf-90dc-fb01ea2b4606",
               "size": 200,
               "price": 3.5,
               "default": null
             }
           ],
-          "alone": false
+          "alone": true
         }
       ],
-      "productName": null,
-      "category": null,
+      "productName": "",
+      "category": "",
       "var": [],
-      "alone": false
+      "alone": true
     },
     {
-      "id": "ef8b3507-9a33-4da7-8dc5-4bb28d72d0d5",
+      "id": "0d02e143-29c6-4b78-a1aa-e19d963339df",
       "layer1": true,
       "name": "schokolade",
       "synonym": [],
-      "default": null,
+      "default": "",
       "child": [
         {
-          "id": "c19556bf-674f-41fa-97de-bd2b2b84e24a",
+          "id": "b4b1deb8-d230-44e4-8da2-cd067cccd4ed",
           "layer1": false,
           "name": "heiß",
           "synonym": [],
@@ -1629,7 +1572,7 @@
           "category": "heissgetränke",
           "var": [
             {
-              "id": "86f2b5eb-1578-4c21-b200-b5cc5158e74b",
+              "id": "3741a9ee-8ff5-430f-9039-6e26ac99474c",
               "size": 200,
               "price": 3.9,
               "default": null
@@ -1638,20 +1581,20 @@
           "alone": false
         }
       ],
-      "productName": null,
-      "category": null,
+      "productName": "",
+      "category": "",
       "var": [],
-      "alone": false
+      "alone": true
     },
     {
-      "id": "7b973047-cef5-4174-a7b6-d9576bb6df49",
+      "id": "e1ddd1cd-a5d0-45f9-9fb3-cbba990a526f",
       "layer1": true,
       "name": "espresso",
       "synonym": [],
-      "default": null,
+      "default": "normal",
       "child": [
         {
-          "id": "4f619869-a4de-4ba6-9976-734a018f090c",
+          "id": "e5931ec0-b01d-436f-a139-d87fed614272",
           "layer1": false,
           "name": "normal",
           "synonym": [],
@@ -1661,7 +1604,7 @@
           "category": "heissgetränke",
           "var": [
             {
-              "id": "8d6bbf2d-b26b-4baf-a4bf-2f2395e18b2b",
+              "id": "55ed2273-4711-4144-bb42-010e447ba750",
               "size": 100,
               "price": 1.9,
               "default": null
@@ -1670,7 +1613,7 @@
           "alone": false
         },
         {
-          "id": "8b02e618-f02a-4958-bc6d-0f4ed967b6f1",
+          "id": "3946c82c-1649-4a3a-8db8-295eb3730e0d",
           "layer1": false,
           "name": "doppelt",
           "synonym": [],
@@ -1680,7 +1623,7 @@
           "category": "heissgetränke",
           "var": [
             {
-              "id": "3289d3a9-6e57-4bab-a613-b5e22a75e493",
+              "id": "0f67153b-f1fe-4093-b43f-1b4529214fad",
               "size": 200,
               "price": 3.3,
               "default": null
@@ -1689,8 +1632,219 @@
           "alone": false
         }
       ],
-      "productName": null,
-      "category": null,
+      "productName": "",
+      "category": "",
+      "var": [],
+      "alone": true
+    },
+    {
+      "id": "26e75665-4068-4897-b951-cf2405b7fd75",
+      "layer1": true,
+      "name": "cocktail",
+      "synonym": [],
+      "default": "",
+      "child": [
+        {
+          "id": "bc5c01f3-0d42-4d33-bdd3-a0ab5efb582d",
+          "layer1": false,
+          "name": "gimlet",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "gimlet",
+          "category": "cocktails",
+          "var": [
+            {
+              "id": "5f793783-3cfe-4320-9734-169c014adbbe",
+              "size": 300,
+              "price": 10,
+              "default": null
+            }
+          ],
+          "alone": true
+        },
+        {
+          "id": "292e66de-cae0-483d-a84c-e7e7d54a53c2",
+          "layer1": false,
+          "name": "tropical",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "tropical",
+          "category": "cocktails",
+          "var": [
+            {
+              "id": "7d8168c9-e754-4431-bc07-51811a938068",
+              "size": 300,
+              "price": 11,
+              "default": null
+            }
+          ],
+          "alone": true
+        },
+        {
+          "id": "851a8c09-afcc-4aca-a90a-ae37783732b3",
+          "layer1": false,
+          "name": "tonic",
+          "synonym": [],
+          "default": "",
+          "child": [
+            {
+              "id": "3f4c09b7-3223-4703-860e-a339b993865d",
+              "layer1": false,
+              "name": "gin",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "gin tonic",
+              "category": "cocktails",
+              "var": [
+                {
+                  "id": "91bf0125-fc86-44d8-b430-1b8ff36ed59f",
+                  "size": 300,
+                  "price": 9,
+                  "default": null
+                }
+              ],
+              "alone": true
+            }
+          ],
+          "productName": "",
+          "category": "",
+          "var": [],
+          "alone": true
+        }
+      ],
+      "productName": "",
+      "category": "",
+      "var": [],
+      "alone": false
+    },
+    {
+      "id": "9550806a-2ff4-41b0-a91f-f1fb4b3adc6d",
+      "layer1": true,
+      "name": "softdrink",
+      "synonym": [],
+      "default": "",
+      "child": [
+        {
+          "id": "d66decbf-7154-4d9a-a712-412090a8ebcb",
+          "layer1": false,
+          "name": "fanta",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "fanta",
+          "category": "softdrinks",
+          "var": [
+            {
+              "id": "e44b584b-6d24-4337-b072-244f2f957420",
+              "size": 300,
+              "price": 2,
+              "default": null
+            },
+            {
+              "id": "6179b972-b584-4251-9918-e2d0ffa65e17",
+              "size": 500,
+              "price": 4,
+              "default": true
+            }
+          ],
+          "alone": true
+        },
+        {
+          "id": "9e4615cb-eee3-4fbd-8f27-92e00ff98dad",
+          "layer1": false,
+          "name": "sprite",
+          "synonym": [],
+          "default": "",
+          "child": [],
+          "productName": "sprite",
+          "category": "softdrinks",
+          "var": [
+            {
+              "id": "0dbc31f1-4d98-4c75-9cb9-34e05fb2326b",
+              "size": 300,
+              "price": 2,
+              "default": null
+            },
+            {
+              "id": "bc633379-47ae-4137-9eaa-f593710a20be",
+              "size": 500,
+              "price": 4,
+              "default": true
+            }
+          ],
+          "alone": true
+        },
+        {
+          "id": "fc23d410-fce0-42bc-b84a-23a4a08b09dc",
+          "layer1": false,
+          "name": "cola",
+          "synonym": [
+            "coca"
+          ],
+          "default": "normal",
+          "child": [
+            {
+              "id": "47dbb415-6c22-446f-a231-f49c80bc16c2",
+              "layer1": false,
+              "name": "normal",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "coca cola",
+              "category": "softdrinks",
+              "var": [
+                {
+                  "id": "c4641731-cff1-41e9-8f4a-0bedb06ee519",
+                  "size": 300,
+                  "price": 2,
+                  "default": null
+                },
+                {
+                  "id": "f94358f7-248c-4ecd-a621-bcecbee2d5d5",
+                  "size": 500,
+                  "price": 4,
+                  "default": true
+                }
+              ],
+              "alone": false
+            },
+            {
+              "id": "61faa52d-ff16-49a3-bffb-16520724d7f9",
+              "layer1": false,
+              "name": "light",
+              "synonym": [],
+              "default": "",
+              "child": [],
+              "productName": "coca cola light",
+              "category": "softdrinks",
+              "var": [
+                {
+                  "id": "355ab559-0d39-4705-9abe-5e82c72acc99",
+                  "size": 300,
+                  "price": 2,
+                  "default": null
+                },
+                {
+                  "id": "5beb1694-466d-4ee0-b654-f6a78472affd",
+                  "size": 500,
+                  "price": 4,
+                  "default": true
+                }
+              ],
+              "alone": false
+            }
+          ],
+          "productName": "",
+          "category": "",
+          "var": [],
+          "alone": true
+        }
+      ],
+      "productName": "",
+      "category": "",
       "var": [],
       "alone": false
     }

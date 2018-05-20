@@ -27,9 +27,11 @@ class KeywordsFilter {
 
         let srcStr = this.input;
         let pos = -1;
+        // search with different suffix
         let searchSuffix = [
             'es', 'er', 'en', 'n', 'e', ''
         ];
+        // if searching will happen with spaces before and after searchStr
         let currentSpace = true;
         do {
             do {
@@ -40,21 +42,31 @@ class KeywordsFilter {
                     }
                     pos = srcStr.indexOf(searchVal, lastIndex);
                     if (pos !== -1) {
-                        result.push({
-                            pos: pos,
-                            val: searchVal,
-                            space: currentSpace
-                        });
-                        // try not to search without spaces
-                        space = true;
+                        if (!space) {
+                            // check if result was already found with space
+                            let spaceResult = result.find((item) => {
+                                return (item.pos === pos - 1);
+                            });
+                            // only add new result, if it was not found with space
+                            if (!spaceResult.length) {
+                                result.push({
+                                    pos: pos,
+                                    val: searchVal,
+                                    space: currentSpace
+                                });
+                            }
+                        }
                         break;
                     }
                 }
+                // only search in remaining string
                 lastIndex = pos + 1;
             } while (pos !== -1);
             if (!space && currentSpace) {
+                // second time: also search without string if !space
                 currentSpace = false;
             } else {
+                // leave loop after second loop at the latest
                 space = true;
             }
         } while (space === false);
@@ -108,7 +120,7 @@ class KeywordsFilter {
 
         for (let x = 0; x < drinks.length; x++) {
             let newIndex = index.slice(); // copy by value
-            // recursive for getting all childrens
+            // recursive for getting all children
             newIndex.push(x);
             if (drinks[x].child) {
                 result = this.searchName(drinks[x].child, newIndex, result, defaultSynonymsResults);

@@ -17,6 +17,7 @@ class MenuAlgorithm {
         // keywords
         let keywordsFilter = new KeywordsFilter(this.menu, input);
 
+        // 4 different keyword types
         let keywordsObj = {
             name: [],
             nb: [],
@@ -28,30 +29,30 @@ class MenuAlgorithm {
         keywordsObj.size = keywordsFilter.searchSize();
         keywordsObj.conj = keywordsFilter.searchConj();
 
-        // split products
+        // split products > if there are multiple order items
         let splitting = new Splitting(this.menu, keywordsObj);
+        // orderBlocks = [orderBlock1, orderBlock2, ...] > each order block contains a set of keywords
         let orderBlocks = splitting.splitKeywords();
 
-        // name operations
+        // name operations > find product out of different name keywords
         let nameOperations = new NameOperations(this.menu);
 
+        // iterate through orderBlocks
         for (let x = 0; x < orderBlocks.length; x++) {
-            // create name blocks
+            // nameBlocks = [nameBlock1, nameBlock2, ...] > each name block contains name keywords with same strPos
             let nameBlocks = nameOperations.createNameBlocks(orderBlocks[x].items);
 
             // --- single nameBlock per orderBlock
             // get default product by nameBlock
-
             if (nameBlocks.length === 1) {
                 orderBlocks[x].product = nameOperations.getProductByDefault(nameBlocks[0]);
             }
 
             // --- multiple nameBlocks per orderBlock
-            // match multiple nameBlocks
+            // match multiple nameBlocks to get product
             if (nameBlocks.length > 1) {
                 orderBlocks[x].product = nameOperations.getProductByComparison(nameBlocks);
                 if (!orderBlocks[x].product) {
-                    // ÜBERARBEITEN
                     console.log('could not understand you!');
                 }
             }

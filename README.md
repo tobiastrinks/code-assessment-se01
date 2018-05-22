@@ -2,6 +2,8 @@
 
 ## 1. Introduction
 
+Intro video: https://www.dropbox.com/s/ckx2g7wdlxmc6k1/code-se-basics-assessments.mp4?dl=0
+
 For the SE Basics Assessment Challenge I decided to use a part of my last project at CODE from January to April. Since we built an interface to enable guests in restaurants to order drinks in restaurants via a voice device, we were required to program an algorithm which compares the order of the guest with the drink menu of the restaurant. This was my main task over the first weeks of the project.
 
 The algorithm has as parameters the drink menu of the restaurant and the order of the guest as a simple string, decoded from different speech API’s like Google Speech, Bing Voice or Wit.ai. As result we expected to choose the right drink out of the drink menu of the restaurant.

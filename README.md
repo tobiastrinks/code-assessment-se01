@@ -38,7 +38,11 @@ You can find the central file of the algorithm in api in `/api/src/library/menuA
 
 - **data-formats:** For the communication between webapp and API I encoded data in json.
 
-## 5. Run and test it
+## 5. use of frameworks and libraries
+
+For presenting the algorithm, which is the main part of my assessment, I used some npm modules. For building the REST-API I made use of express.js. Further I used jQuery for quickly building up a small webpage for testing the algorithm without writing manual HTTP requests. For coding styleguides I decided to use ESLint with my personal self-made ruleset.
+ 
+## 6. Run and test it
 
 To test my app you can use the `docker-compose.yml` in the root directory of the repository. It spins up a nginx service for the frontend app and a node.js service for the API with implemented algorithm.
 
